@@ -1,0 +1,27 @@
+{
+  "name": "my-todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "react-scripts": "1.0.10",
+    "react-test-renderer": "^15.6.1",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --config jest.conf.json",
+    "jest:coverage": "jest --coverage",
+    "jest:watch": "jest --watch",
+    "eject": "react-scripts eject"
+  }
+}
